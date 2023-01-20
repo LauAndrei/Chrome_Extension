@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    /* the real width is: 100% + 10px + 10px because of the paddings
+              and that's a problem because our input field is wider than the body tag*/
+    padding: 10px; /* padding top - right - left - bot */
+    box-sizing: border-box; /* now full width includes the paddings as well */
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: #5f9341;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: 1px solid #5f9341;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    display: flex;
+}
+
+a {
+    /* we write "li a" if we want to style the a only if it's in the li*/
+    color: #5f9341;
+}
+
+.remove-btn{
+    float: right;
+    padding: 0;
+    margin-left: 10px;
+    background-color: white;
+    color: #5f9341;
+    border: none;
+}
+
+img{
+    width: 15px;
+}

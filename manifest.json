@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "version": "2.0",
+  "name": "Web tracker",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "/img/smirk_icon.png"
+  },
+  "permissions": ["tabs"]
+}
